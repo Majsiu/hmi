@@ -1,0 +1,189 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Human Machine Interface</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			body {
+				background-image: url('images/bg.png');
+				background-size: cover;
+				background-position: center;
+				background-attachment: fixed;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						
+						<div class="content">
+							<div class="inner">
+								<h1>HMI</h1>
+								<p>Jesteśmy grupą studentów z Uniwersytetu Morskiego w Gdyni.
+								Zajmujemy się poszerzaniem wiedzy na temat sterowników PLC oraz
+								systemów komunikacji z panelami operatorskimi i układami rzeczywistymi.</p>
+								
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">Social Media</a></li>
+								<li><a href="#work">Zarząd</a></li>
+								<li><a href="#about">Spotkania</a></li>
+								
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+<!-- Intro -->
+<article id="intro">
+    <h2 class="major">Social Media</h2>
+        
+    <div class="social-container">
+        <h3>Facebook</h3>
+        <div class="social-media">
+            <a href="https://www.facebook.com/profile.php?id=100049758506515&locale=pl_PL">
+                <img src="images/fb.png" alt="facebook umg">
+            </a>
+            <span>Koło HMI</span>
+        </div>
+        <div class="social-media">
+            <a href="https://www.facebook.com/Uniwersytet.Morski.w.Gdyni?locale=pl_PL">
+                <img src="images/fb.png" alt="facebook umg">
+            </a>
+            <span>Uniwersytet Morski w Gdyni</span>
+        </div>
+    </div>
+
+    <div class="social-container">
+        <h3>Youtube</h3>
+        <div class="social-media">
+            <a href="https://www.youtube.com/@koloHMI/featured">
+                <img src="images/yt.png" alt="facebook umg">
+            </a>
+            <span>Koło HMI</span>
+        </div>
+		<div class="social-media">
+            <a href="https://www.youtube.com/@UniwersytetMorskiwGdyni">
+                <img src="images/yt.png" alt="facebook umg">
+            </a>
+            <span>Uniwersytet Morski w Gdyni</span>
+        </div>
+    </div>
+
+    <div class="social-container">
+        <h3>Instagram</h3>
+        <div class="social-media">
+            <a href="https://www.instagram.com/kn.hmi/">
+                <img src="images/ig.png" alt="facebook umg">
+            </a>
+            <span>Koło HMI</span>
+        </div>
+        <div class="social-media">
+            <a href="https://www.instagram.com/uniwersytetmorskigdynia/">
+                <img src="images/ig.png" alt="facebook umg">
+            </a>
+            <span>Uniwersytet Morski w Gdyni</span>
+        </div>
+    </div>
+</article>
+
+
+
+						<!-- Work -->
+							<article id="work">
+								<h2 class="major">Zarząd</h2>
+								<h3>Opiekun Koła:</h3>
+								<img src="images/x1.jpg" alt="Slide" style="width: 50%; height: 50%;">
+								<p>Dr inż. Monika Rybczak</p>
+								<h3>Przewodniczący:</h3> 	
+								<img src="images/x2.jpg" alt="Slide" style="width: 50%; height: 50%;">
+								<p>Inż. Magdalena Borowiec</p>
+								<h3>Zastępca:</h3>  	
+								<img src="images/x3.jpg" alt="Slide" style="width: 50%; height: 50%;">
+								<p>Inż. Piotr Wieleba</p>
+								<h3>Redaktor Medialny:</h3>  
+								<img src="images/x4.jpg" alt="Slide" style="width: 50%; height: 50%;">
+								<p>Inż. Kacper Falkiewicz</p>
+							</article>
+
+						<!-- About -->
+							<article id="about">
+								<h2 class="major">Spotkania</h2>
+								<div class="slideshow-container">
+        <div class="slide fade">
+            <img src="images/f1.jpg" alt="Slide" style="width: 100%; height: 25%;">
+        </div>
+        <div class="slide fade">
+            <img src="images/f2.jpg" alt="Slide" style="width: 100%; height: 25%;">
+        </div>
+        <div class="slide fade">
+            <img src="images/f3.jpg" alt="Slide" style="width: 100%; height: 25%;">
+        </div>
+		<div class="slide fade">
+            <img src="images/f4.jpg" alt="Slide" style="width: 100%; height: 25%;">
+        </div>
+		<div class="slide fade">
+            <img src="images/f5.jpg" alt="Slide" style="width: 100%; height: 25%;">
+        </div>
+		<div class="slide fade">
+            <img src="images/f6.jpg" alt="Slide" style="width: 100%; height: 25%;">
+        </div>
+		<div class="slide fade">
+            <img src="images/f7.jpg" alt="Slide" style="width: 100%; height: 25%;">
+        </div>
+		<div class="slide fade">
+            <img src="images/f8.jpg" alt="Slide" style="width: 100%; height: 25%;">
+        </div>
+		
+    </div>
+    
+    <script>
+        let slideIndex = 0;
+        function showSlides() {
+            let slides = document.getElementsByClassName("slide");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 3000); // Zmiana co 3 sekundy
+        }
+        showSlides();
+    </script>
+			<h1>ŚRODY</h1>			
+			<h2>16:00 - 19:00</h2>
+		</article>
+	</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; COPYRIGHT: Michał Labudda</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
