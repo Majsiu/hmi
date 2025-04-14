@@ -1680,4 +1680,20 @@ input, select, textarea {
 		padding: 0;
 		}
 
+		.video-container {
+			text-align: center; /* Wyśrodkowanie zawartości */
+		}
 
+		.video-container iframe {
+			width: 100%; /* Ustawienie szerokości na 100% */
+			max-width: 750px; /* Maksymalna szerokość, aby nie przekraczała 750px */
+			height: 500; /* Automatyczna wysokość, aby zachować proporcje */
+		}
+
+		.gallery{
+            display: block; /* Ustawienie na block, aby zdjęcia były w jednej kolumnie */
+        }
+        .gallery img {
+            width: 100%; /* Szerokość zdjęcia na 100% kontenera */
+            margin: 5px 0; /* Odstęp między zdjęciami w pionie */
+        }
