@@ -1697,3 +1697,12 @@ input, select, textarea {
             width: 100%; /* Szerokość zdjęcia na 100% kontenera */
             margin: 5px 0; /* Odstęp między zdjęciami w pionie */
         }
+	.napis {
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding: 10px;
+      font-size: 20px;
+      background-color: rgba(0, 0, 0, 0.6);
+      color: white;
+    }
